@@ -1,0 +1,160 @@
+{
+  "1": {
+    "title": "Ethereum",
+    "description": "Ethereum History",
+    "author": "Custom Creator",
+    "duration": 600,
+    "difficulty": "intermediate",
+    "tags": [
+      "blockchain"
+    ],
+    "image": "/custom-lesson.png",
+    "language": "en",
+    "questions": [
+      {
+        "id": "q-1764390874647-0",
+        "text": "When was ethereum launched",
+        "options": [
+          "2013",
+          "2016",
+          "2015"
+        ],
+        "correctAnswer": 1,
+        "explanation": ""
+      }
+    ]
+  },
+  "2": {
+    "title": "Ethereum Basic",
+    "description": "Ethereum EIP",
+    "author": "Custom Creator",
+    "duration": 300,
+    "difficulty": "beginner",
+    "tags": [
+      "ethereum",
+      "blockchain"
+    ],
+    "image": "/custom-lesson.png",
+    "language": "en",
+    "questions": [
+      {
+        "id": "q-1764399910469-0",
+        "text": "What is the fundamental difference between EIP-721 and EIP-1155 token standards?",
+        "options": [
+          "ERC-721 supports batch transfers while ERC-1155 doesn't",
+          "ERC-1155 allows both fungible and non-fungible tokens in a single contract; ERC-721 only supports NFTs",
+          "ERC-721 is cheaper to deploy than ERC-1155",
+          "ERC-1155 doesn't require metadata while ERC-721 does"
+        ],
+        "correctAnswer": 1,
+        "explanation": ""
+      }
+    ]
+  },
+  "4": {
+    "title": "Ethereum",
+    "description": "History of Ethereum",
+    "author": "Custom Creator",
+    "duration": 600,
+    "difficulty": "beginner",
+    "tags": [
+      "ethereum"
+    ],
+    "image": "/custom-lesson.png",
+    "language": "en",
+    "questions": [
+      {
+        "id": "q-1764388852047-0",
+        "text": "When is ethereum launched",
+        "options": [
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2012"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Check ethereum.org for references"
+      }
+    ]
+  },
+  "lesson-4": {
+    "title": "Ethereum",
+    "description": "History of Ethereum",
+    "author": "Custom Creator",
+    "duration": 600,
+    "difficulty": "beginner",
+    "tags": [
+      "ethereum"
+    ],
+    "image": "/custom-lesson.png",
+    "language": "en",
+    "questions": [
+      {
+        "id": "q-1764388852047-0",
+        "text": "When is ethereum launched",
+        "options": [
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2012"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Check ethereum.org for references"
+      }
+    ]
+  },
+  "lesson-1": {
+    "title": "Ethereum",
+    "description": "Ethereum History",
+    "author": "Custom Creator",
+    "duration": 600,
+    "difficulty": "intermediate",
+    "tags": [
+      "blockchain"
+    ],
+    "image": "/custom-lesson.png",
+    "language": "en",
+    "questions": [
+      {
+        "id": "q-1764390874647-0",
+        "text": "When was ethereum launched",
+        "options": [
+          "2013",
+          "2016",
+          "2015"
+        ],
+        "correctAnswer": 1,
+        "explanation": ""
+      }
+    ]
+  },
+  "lesson-2": {
+    "title": "Ethereum Basic",
+    "description": "Ethereum EIP",
+    "author": "Custom Creator",
+    "duration": 300,
+    "difficulty": "beginner",
+    "tags": [
+      "ethereum",
+      "blockchain"
+    ],
+    "image": "/custom-lesson.png",
+    "language": "en",
+    "questions": [
+      {
+        "id": "q-1764399910469-0",
+        "text": "What is the fundamental difference between EIP-721 and EIP-1155 token standards?",
+        "options": [
+          "ERC-721 supports batch transfers while ERC-1155 doesn't",
+          "ERC-1155 allows both fungible and non-fungible tokens in a single contract; ERC-721 only supports NFTs",
+          "ERC-721 is cheaper to deploy than ERC-1155",
+          "ERC-1155 doesn't require metadata while ERC-721 does"
+        ],
+        "correctAnswer": 1,
+        "explanation": ""
+      }
+    ]
+  }
+}

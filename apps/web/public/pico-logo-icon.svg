@@ -1,0 +1,25 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="50%" stop-color="#181F3A"/>
+      <stop offset="100%" stop-color="#020308"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="rgba(108,99,255,0)"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="100%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#00D1B2"/>
+      <stop offset="100%" stop-color="rgba(0,209,178,0)"/>
+    </radialGradient>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="64" fill="url(#bg)"/>
+  <circle cx="64" cy="64" r="88" fill="url(#orb1)" opacity="0.9"/>
+  <circle cx="200" cy="200" r="96" fill="url(#orb2)" opacity="0.8"/>
+  <circle cx="128" cy="128" r="72" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="4" stroke-dasharray="10 8"/>
+  <path d="M96 166V88h40c18 0 30 10.5 30 26.5c0 16.5-12 27.5-30 27.5h-22v24h-18zm18-40h20c8.5 0 14-4.5 14-11.5c0-7.5-5.5-11.5-14-11.5h-20v23z"
+        fill="#FFFFFF"/>
+</svg>
+
+

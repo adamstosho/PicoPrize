@@ -98,3 +98,24 @@ Thumbs.db
 
 # Turbo
 .turbo
+
+# Hardhat
+artifacts/
+cache/
+deployments/
+ignition/
+
+# Temporarily exclude contracts folder (will add later)
+# TODO: Remove this line when ready to push contracts
+apps/contracts/
+
+# Data files (user-generated content - keep for now but can be excluded if needed)
+# apps/web/data/lessons.json
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Build artifacts
+*.log
+*.lock
