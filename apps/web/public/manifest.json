@@ -1,0 +1,38 @@
+{
+  "name": "PicoPrize",
+  "short_name": "PicoPrize",
+  "description": "Gamified microlearning platform with blockchain rewards on Celo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1020",
+  "theme_color": "#6C63FF",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/pico-logo-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "finance", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Lessons",
+      "short_name": "Lessons",
+      "description": "Browse available lessons",
+      "url": "/lessons",
+      "icons": [{ "src": "/pico-logo-icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Creator",
+      "short_name": "Creator",
+      "description": "Create and manage lessons",
+      "url": "/creator",
+      "icons": [{ "src": "/pico-logo-icon.svg", "sizes": "any" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
+

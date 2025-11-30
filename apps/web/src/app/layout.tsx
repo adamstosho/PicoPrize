@@ -27,6 +27,12 @@ export const metadata: Metadata = {
     apple: "/pico-logo-icon.svg",
   },
   manifest: "/manifest.json",
+  // MiniPay Mini App meta tags
+  other: {
+    "mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "black-translucent",
+  },
 }
 
 export const viewport: Viewport = {
@@ -47,6 +53,13 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        {/* MiniPay Mini App specific meta tags */}
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-TileColor" content="#6C63FF" />
+        <meta name="theme-color" content="#6C63FF" />
       </head>
       <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased overflow-x-hidden`}>
         <div id="app" className="min-h-screen">
